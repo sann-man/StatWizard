@@ -230,8 +230,7 @@ const App = () => {
       </Helmet>
       <nav className="navbar">
         <div className="navbar-title" style={{ cursor: 'pointer' }}>
-          <p>Stat Wizard </p>
-          <img className="name-img" src="https://www.prosportstickers.com/wp-content/uploads/2022/10/wizard-emoji.png" alt="Wizard Emoji" />
+          <p id = "site-title">Stat Wizard </p>
         </div>
         <button className="navbar-button" onClick={handleQuestion}>?</button>
       </nav>
